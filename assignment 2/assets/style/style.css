@@ -1,0 +1,129 @@
+/* This is a stylesheet */
+
+/*@import();*/
+@import url("reset.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,800');
+
+* {box-sizing:border-box;}
+
+
+body {
+    background: antiquewhite;
+    font-size: 16px;
+    border: 5px solid black;
+    /* overflow: hidden; */
+}
+    
+main {
+    padding:20px;
+}
+
+header {
+    width:100%;
+    position: relative;
+    box-sizing: border-box;
+}
+/* # for id selectors . for class selectors*/
+/* */
+
+
+
+#firststory {
+    width:100%;
+    
+}
+#firststory img {
+    float: right;
+}
+#secondstory {
+    width:100%;
+    
+}
+#secondstory img{
+    float:left;
+    width:40%;
+    margin:20px;
+    
+}
+
+
+nav ul li{
+    display:inline-block;
+    border: 1px solid black;
+    padding: 20px
+}
+nav ul li a{
+    display:inline-block;
+}
+
+main{
+    width:960px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+img_with_cap{
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    overflow: hidden;
+    position: relative;
+}
+
+body{
+    font size: 17px;
+    font-family: "Open Sans", sans-serif;
+    color: 000;
+}
+
+/* Link styles*/
+a{
+    color:darkviolet;
+    text-decoration:none;
+        
+}
+a:visited{
+    color:darkgreen;
+}
+a:hover{
+    color:crimson;
+}
+p {
+    
+    color: darkslateblue
+}
+h1 {
+    font-weight: bold;
+    font-size: 200%;
+    margin: 20px;
+    border:2px solid black;
+    width: 450px;
+    display: inline-block;
+    color:darkblue;
+}
+h2 {
+    font-weight:bold;
+    font-size:200%;
+    margin:20px;
+    border:2px solid black;
+    width: 450px;
+    display:inline-block;
+    color:darkblue;
+}
+h3 {
+    font-weight: lighter;
+    font-size: 150%;
+    margin: 20px;
+    border:2px solid black;
+    width: 450px;
+    display:inline-block;
+    color: darkblue;
+}
+
+.p1{
+    color:000;
+}
+.p2{
+    color:000;
+
+
