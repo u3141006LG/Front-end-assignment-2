@@ -1,0 +1,27 @@
+@import url(reset.css);
+
+body{
+    background-image:url(../img/norfolk-island-17.JPG);
+    background-size:100%;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+header, footer{
+    background: #ddd;
+    width:100%;
+    
+}
+main{
+    background:#fff;
+}
+main img{
+    float:right;
+    width:50%;
+}
+@media screen and (min-device-width: 497px) {
+    main{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
